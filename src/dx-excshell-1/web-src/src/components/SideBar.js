@@ -31,6 +31,15 @@ function SideBar () {
                 <NavLink
                     className={({ isActive }) => `SideNav-itemLink ${isActive ? 'is-selected' : ''}`}
                     aria-current="page"
+                    to="/analytics"
+                >
+                    Analytics Dashboard
+                </NavLink>
+            </li>
+            <li className="SideNav-item">
+                <NavLink
+                    className={({ isActive }) => `SideNav-itemLink ${isActive ? 'is-selected' : ''}`}
+                    aria-current="page"
                     to="/about"
                 >
                     About App Builder
