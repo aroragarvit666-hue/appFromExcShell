@@ -5,6 +5,8 @@
   "dependencies": {
     "@adobe/generator-app-excshell": "^4.0.0",
     "@adobe/aio-sdk": "^6",
+    "@adobe/aio-lib-analytics": "^4",
+    "@adobe/aio-lib-core-auth": "^1",
     "node-fetch": "^2.6.0",
     "core-js": "^3.6.4",
     "react": "^16.13.1",
