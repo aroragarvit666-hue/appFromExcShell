@@ -39,7 +39,7 @@ function App (props) {
           >
             <View
               gridArea='sidebar'
-              backgroundColor='gray-200'
+              backgroundColor='blue-400'
               padding='size-200'
             >
               <SideBar></SideBar>
